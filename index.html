@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sizing an Image</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="bg-container">
+      <div class="top-container">
+        <h1 class="heading">Sizing an Image</h1>
+        <p class="description">
+          Increase the width of an image by <br />
+          clicking the plus button and decrease by <br />
+          clicking the Minus button. For every <br />
+          action, the image increases or decreases <br />
+          by 5px.
+        </p>
+      </div>
+      <div class="img-container">
+        <p id="warning-message"></p>
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sizing-an-image-img.png"
+          alt="image"
+          id="image"
+        />
+        <p class="img-des">Width: 
+          <span id="img-size">200px</span>
+        </p>
+      </div>
+      <div class="btn-container">
+        <button class="btn" onclick="onDecrement()">-</button>
+        <hr class="hr-line" />
+        <span>5px</span>
+        <hr class="hr-line" />
+        <button class="btn" onclick="onIncrement()">+</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

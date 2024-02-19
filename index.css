@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+    padding: 1rem;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    text-align: center;
+    line-height: 1.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(138, 135, 135);
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#warning-message {
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#image {
+    /* height: 200px; */
+    width: 200px;
+    height: auto;
+}
+
+.img-des {
+    text-align: center;
+}
+
+#img-size {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.btn-container {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    /* padding: 1rem; */
+    box-shadow: 3px 3px 5px 3px #b7b3b3;
+}
+
+.btn {
+    border: none;
+    background-color: #ffffff;
+    outline: none;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.hr-line {
+    width: 1px;
+    height: 20px;
+    margin: 0.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
